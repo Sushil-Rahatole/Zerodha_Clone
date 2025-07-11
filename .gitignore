@@ -1,0 +1,62 @@
+# Node modules - never track dependencies
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime files
+.env
+.env.*.local
+*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code and IDEs
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Misc
+*.log
+*.tsbuildinfo
+
+# Frontend-specific (React)
+frontend/.env
+frontend/.env.local
+frontend/.next/
+frontend/.cache/
+frontend/public/build/
+
+# Dashboard-specific
+dashboard/.env
+dashboard/.env.local
+dashboard/.next/
+dashboard/.cache/
+dashboard/public/build/
+
+# Backend-specific
+backend/.env
+backend/.env.local
+
+# Ignore local database or debug files
+*.sqlite
+*.db
+*.bak
+
+# Ignore test snapshots (optional)
+__snapshots__/
